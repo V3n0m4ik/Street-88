@@ -1,3 +1,26 @@
 @import url(./all.min.css);
 @import url(./common.css);
 @import url(./fonts.css);
+
+:root {
+    --btn: #69CF17;
+    --bg: #0C0C0C;
+    --color: #fff;
+}
+
+.banner {
+    background: var(--bg);
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.service__menu {
+    display: flex;
+    gap: 20px;
+}
