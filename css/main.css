@@ -52,3 +52,54 @@
         background: var(--btn);
     }
 }
+
+.header__content {
+    min-height: calc(100dvh - 55px - 67px);
+    display: flex;
+    background-image: url(../img/food-burger-wallpaper-preview\ 1.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.header__title {
+    font-weight: 900;
+    font-size: 72px;
+    color: #69CF17;
+    margin-bottom: 18px;
+}
+
+.header__meat {
+    color: #69CF17;
+    font-size: 36px;
+    line-height: 17px;
+    margin-bottom: 18px;
+}
+
+.header__desc {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.header__price {
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 39px;
+    padding: 32px 76px;
+    backdrop-filter: blur(18px);
+    background: rgba(105, 207, 23, 0.5);
+    display: inline-block;
+}
+
+.header__service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__view {
+    border-radius: 6px;
+    background: linear-gradient(90deg, #69cf17 0%, #417d11 100%);
+    font-size: 18px;
+    padding: 15px 68px;
+}
