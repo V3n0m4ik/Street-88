@@ -5,7 +5,7 @@
 :root {
     --btn: rgba(105, 207, 23, 0.75);
     --bg: #0C0C0C;
-    --color: #fff;
+    --white: #fff;
 }
 
 .banner {
@@ -30,6 +30,8 @@
     backdrop-filter: blur(15px);
     background: rgba(0, 0, 0, 0.5);
     position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .nav__content {
@@ -39,8 +41,13 @@
     padding: 6px 0;
 }
 
+
 .logo {
     max-height: 53px;
+}
+
+.menu {
+    display: flex;
 }
 
 .menu__link {
@@ -59,6 +66,7 @@
     background-image: url(../img/food-burger-wallpaper-preview\ 1.jpg);
     background-size: cover;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .header__title {
@@ -102,4 +110,28 @@
     background: linear-gradient(90deg, #69cf17 0%, #417d11 100%);
     font-size: 18px;
     padding: 15px 68px;
+}
+
+.tab {
+    background: #292929;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    height: auto;
+    width: auto;
+}
+
+.tab__menu {
+    display: flex;
+    gap: 36px;
+}
+
+.tab__link {
+    display: flex;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 19px 0;
+
+    &:hover {
+        border-bottom: 1px solid #fff;
+    }
 }

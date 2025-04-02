@@ -26,11 +26,12 @@ body {
     width: 100%;
 }
 
-button {
+button, label, input {
     border: none;
     outline: none;
     font-family: inherit;
     color: inherit;
     font-size: inherit;
     cursor: pointer;
+    background: none;
 }
