@@ -178,3 +178,13 @@
     line-height: 25px;
     text-align: justify;
 }
+
+.map__title {
+    margin-top: 50px;
+    background: #fff;
+    color: #69CF17;
+    text-align: center;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 20px;
+}
