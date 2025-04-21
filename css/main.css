@@ -28,10 +28,11 @@
 .nav {
     border: 1px solid rgba(125, 115, 115, 0.5);
     backdrop-filter: blur(15px);
-    background: rgba(0, 0, 0, 0.5);
     position: sticky;
+    /* position: fixed; */
     top: 0;
     z-index: 999;
+
 }
 
 .nav__content {
@@ -52,8 +53,10 @@
 
 .menu__link {
     padding: 22px 10px;
+    display: block;
     font-size: 18px;
     transition: 0.5s;
+    position: relative;
 
     &:hover {
         background: var(--btn);
@@ -258,4 +261,11 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
+}
+
+.nav__burger {
+    background: transparent;
+    font-size: 32px;
+    height: 60px;
+    display: none;
 }
